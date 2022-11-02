@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin-bottom: 63px;
+}
+
+body {
+  background-color: #121214;
+  background-image: url(./assets/bg.svg);
+  background-position-x: center;
+  background-position-y: 55.6%;
+}
+
+ul {
+  list-style: none;
+}
+
+#app {
+  width: fit-content;
+  margin: 52px auto;
+}
+
+.card {
+  border-bottom: 2px solid #f7dd43;
+  border-radius: 6px;
+  background: #1d1c19;
+  padding: 32px 23px;
+  text-align: center;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 270px;
+}
+
+.card h2 {
+  display: flex;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #746615;
+  gap: 16px;
+  justify-content: center;
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px;
+  color: #f7dd43;
+  align-items: center;
+}
+
+.card h2 span {
+  color: #e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card ul li strong {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+  color: #e1e1e6;
+}
+
+.card ul li + li {
+  padding-top: 24px;
+  border-top: 1px solid #323238;
+}
