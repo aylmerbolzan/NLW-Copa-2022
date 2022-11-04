@@ -7,6 +7,27 @@
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --card-color-primary: #f7dd43;
+  --card-title-border-color: #746615;
+  --card-bg-color: #1d1c19;
+  --bg: url(./assets/bg-yellow.svg);
+}
+
+body.blue {
+  --card-color-primary: #338Af3;
+  --card-title-border-color: #338Af3;
+  --card-bg-color: #202024;
+  --bg: url(./assets/bg-blue.svg);
+}
+
+body.green {
+  --card-color-primary: #047C3F;
+  --card-title-border-color: #047C3F;
+  --card-bg-color: #1A1F1B;
+  --bg: url(./assets/bg-green.svg);
+}
+
 header {
   margin-bottom: 63px;
   text-align: center;
@@ -14,9 +35,10 @@ header {
 
 body {
   background-color: #121214;
-  background-image: url(./assets/bg.svg);
-  background-attachment: fixed;
-  background-position-x: center;
+  background-image: var(--bg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul {
@@ -25,7 +47,8 @@ ul {
 
 #app {
   width: fit-content;
-  margin: 52px auto;
+  margin: auto;
+  padding: 52px;
 }
 
 #cards {
@@ -35,9 +58,9 @@ ul {
 }
 
 .card {
-  border-bottom: 2px solid #f7dd43;
+  border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
-  background: #1d1c19;
+  background: var(--card-bg-color);
   padding: 32px 23px;
   text-align: center;
 }
@@ -53,7 +76,7 @@ ul {
   display: flex;
   padding: 8px 16px;
   border-radius: 6px;
-  border: 1px solid #746615;
+  border: 1px solid var(--card-title-border-color);
   gap: 16px;
   justify-content: center;
   width: fit-content;
@@ -85,4 +108,39 @@ ul {
 .card ul li + li {
   padding-top: 24px;
   border-top: 1px solid #323238;
+}
+
+.card ul li strong:hover,
+.card ul li img:hover {
+  transform: scale(1.1);
+}
+
+
+.card h2,
+.card ul li strong,
+.card ul li img {
+  transition: transform .3s;
+}
+
+.card {
+  opacity: 0;
+  animation: appear .5s forwards;
+}
+
+@keyframes appear {
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@media (min-width: 700px) {
+  #cards {
+  flex-direction: row;
+  max-width: 670px;
+  flex-wrap: wrap;
+}
 }
