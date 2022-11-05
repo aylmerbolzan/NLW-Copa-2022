@@ -38,7 +38,8 @@ body {
   background-image: var(--bg);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw;
+  background-attachment: fixed;
 }
 
 ul {
@@ -140,7 +141,7 @@ ul {
 @media (min-width: 700px) {
   #cards {
   flex-direction: row;
-  max-width: 670px;
+  max-width: 1012px;
   flex-wrap: wrap;
 }
 }
