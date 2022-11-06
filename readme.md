@@ -26,7 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
-- Git e Github
+- Git
+- GitHub
 
 ## 💻 Projeto
 
@@ -43,5 +44,4 @@ Esse projeto está sob a licença MIT.
 ---
 <br>
 
-Feito com ♥ por Aylmer Bolzan 👋 <br>
-[Participe da  comunidade Rocketseat no Discord!](https://discord.gg/rocketseat)
+Feito com 💛 por [Aylmer Bolzan](https://www.linkedin.com/in/aylmerbolzan/).
