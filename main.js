@@ -113,92 +113,92 @@ document.querySelector("#cards").innerHTML =
     "30/11",
     "quarta",
 
-    createGame("tunísia", "7:00", "frança") +
-      createGame("polônia", "10:00", "argentina") +
-      createGame("austrália", "13:00", "dinamarca") +
-      createGame("arábia saudita", "16:00", "méxico")
+    createGame("tunísia", "1 x 0", "frança") +
+      createGame("polônia", "0 x 2", "argentina") +
+      createGame("austrália", "1 x 0", "dinamarca") +
+      createGame("arábia saudita", "1 x 2", "méxico")
   ) +
   createCard(
     "01/12",
     "quinta",
 
-    createGame("croácia", "7:00", "bélgica") +
-      createGame("japão", "10:00", "espanha") +
-      createGame("canadá", "13:00", "marrocos") +
-      createGame("costa rica", "16:00", "alemanha")
+    createGame("croácia", "0 x 0", "bélgica") +
+      createGame("japão", "2 x 1", "espanha") +
+      createGame("canadá", "1 x 2", "marrocos") +
+      createGame("costa rica", "2 x 4", "alemanha")
   ) +
   createCard(
     "02/12",
     "sexta",
 
-    createGame("coreia do sul", "7:00", "portugal") +
-      createGame("sérvia", "10:00", "suíça") +
-      createGame("gana", "13:00", "uruguai") +
-      createGame("camarões", "16:00", "brasil")
+    createGame("coreia do sul", "2 x 1", "portugal") +
+      createGame("sérvia", "2 x 3", "suíça") +
+      createGame("gana", "0 x 2", "uruguai") +
+      createGame("camarões", "1 x 0", "brasil")
   ) +
   createCard(
     "03/12",
     "sábado",
 
-    createGame("a confirmar", "12:00", "a confirmar") +
-      createGame("a confirmar", "16:00", "a confirmar")
+    createGame("holanda", "3 x 1", "estados unidos") +
+      createGame("argentina", "2 x 1", "austrália")
   ) +
   createCard(
     "04/12",
     "domingo",
 
-    createGame("a confirmar", "12:00", "a confirmar") +
-      createGame("a confirmar", "16:00", "a confirmar")
+    createGame("frança", "3 x 1", "polônia") +
+      createGame("inglaterra", "3 x 0", "senegal")
   ) +
   createCard(
     "05/12",
     "segunda",
 
-    createGame("a confirmar", "12:00", "a confirmar") +
-      createGame("a confirmar", "16:00", "a confirmar")
+    createGame("japão", "2 x 4", "croácia") +
+      createGame("brasil", "4 x 1", "coreia do sul")
   ) +
   createCard(
     "06/12",
     "terça",
 
-    createGame("a confirmar", "12:00", "a confirmar") +
-      createGame("a confirmar", "16:00", "a confirmar")
+    createGame("marrocos", "3 x 0", "espanha") +
+      createGame("portugal", "6 x 1", "suíça")
   ) +
   createCard(
     "09/12",
     "sexta",
 
-    createGame("a confirmar", "12:00", "a confirmar") +
-      createGame("a confirmar", "16:00", "a confirmar")
+    createGame("croácia", "5 x 3", "brasil") +
+      createGame("holanda", "5 x 6", "argentina")
   ) +
   createCard(
     "10/12",
     "sábado",
 
-    createGame("a confirmar", "12:00", "a confirmar") +
-      createGame("a confirmar", "16:00", "a confirmar")
+    createGame("marrocos", "1 x 0", "portugal") +
+      createGame("inglaterra", "1 x 2", "frança")
   ) +
   createCard(
     "13/12",
     "terça",
 
-    createGame("a confirmar", "16:00", "a confirmar")
+    createGame("argentina", "3 x 0", "croácia")
   ) +
   createCard(
     "14/12",
     "quarta",
 
-    createGame("a confirmar", "16:00", "a confirmar")
+    createGame("frança", "2 x 0", "marrocos")
   ) +
   createCard(
     "17/12",
     "sábado",
 
-    createGame("a confirmar", "12:00", "a confirmar")
+    createGame("croácia", "2 x 1", "marrocos")
   ) +
   createCard(
     "18/12",
     "domingo",
 
-    createGame("a confirmar", "12:00", "a confirmar")
+    createGame("argentina", "7 x 5", "frança")
   )
